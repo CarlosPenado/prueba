@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Desarrollo de Sitios Web...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="author" content="Carlos Penado">
+    <meta name="keywords" content="Diseño, Sitios web, responsive desing, etc">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/icono.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="fuentes/style.css">
+</head>
+<body>
+   <header class="main-header main-container">
+       <div class="main-header-1">
+           <img src="images/logo.svg" class="logo" width="100">
+       </div>
+       <div class="main-header-2">
+           <div class="contact-widget">
+              <div class="contact-widget_data">
+                   <h3 class="contact-widget-title">Llamar a:</h3>
+                   <h3 class="contact-widget-content"><span class="iconos-phone"></span>2624-0004</h3>
+               </div>
+          </div>
+          <div class="contact-widget">
+              <div class="contact-widget_data">
+                   <h3 class="contact-widget-title">Nuestra Direccion</h3>
+                   <h3 class="contact-widget-content"><span class="iconos-location"></span> km. 113, desvio de Santa Maria</h3>
+               </div>
+          </div>
+       </div>
+   </header>
+   <div id="toggle-menu" class="toggle-menu icon-menu"></div>
+   <nav class="main-nav main-container" id="nav">
+       <ul class="main-menu">
+           <li class="main_menu_item"><a href="#" class="main-menu_link"><span class="iconos-home"></span> Inicio</a></li>
+           <li class="main_menu_item"><a href="#" class="main-menu_link"><span class="iconos-office"></span> Acerca de</a></li>
+           <li class="main_menu_item"><a href="#" class="main-menu_link"><span class="iconos-calendar"></span> Eventos</a></li>
+           <li class="main_menu_item"><a href="#" class="main-menu_link"><span class="iconos-images"></span> Galeria</a></li>
+           <li class="main_menu_item"><a href="#" class="main-menu_link"><span class="iconos-envelop"></span> Contactos</a></li>
+       </ul>
+       <div class="social-networks">
+           <a href=""><span class="iconos-facebook2"></span></a>
+           <a href=""><span class="iconos-twitter"></span></a>
+           <a href=""><span class="iconos-linkedin"></span></a>
+           <a href=""><span class="iconos-youtube"></span></a>
+       </div>
+   </nav>
+   <div class="main-banner">
+       <div class="main-container main-banner_data-container">
+          <div class="main-banner_data">
+               <h2 class="main-banner_title">
+                 SLIDER..
+               </h2>
+           </div>
+       </div>
+   </div>
+   <section>
+       <h2 class="section-title"><span class="iconos-tablet"></span> Mi primer sitio completo responsivo...</h2>
+       <div class="main-container feature-item-container">
+           <article class="feature-item">
+              
+               <img src="" class="feature-item_img" title="Item 1">
+               <footer class="feature-item_footer">
+                   <h3 class="feature-item_title"> Diseño de sitios web</h3>
+                   <div class="feature-item_icon"></div>
+               </footer>
+           </article>
+            <article class="feature-item">
+               <img src="" class="feature-item_img" title="Item 2">
+               <footer class="feature-item_footer">
+                   <h3 class="feature-item_title">Diseño de sitios web</h3>
+                   <div class="feature-item_icon"></div>
+               </footer>
+           </article>
+            <article class="feature-item">
+               <img src="" class="feature-item_img" title="Item 3">
+               <footer class="feature-item_footer">
+                   <h3 class="feature-item_title">Diseño de sitios web</h3>
+                   <div class="feature-item_icon"></div>
+               </footer>
+           </article>
+       </div>
+   </section>
+</body>
+ 
+<script type="text/javascript">
+    
+    var menu = document.getElementById("toggle-menu"),
+        nav  = document.getElementById("nav");
+    menu.addEventListener("click",() =>{
+        nav.classList.toggle("show");
+      
+    });
+
+</script>
+</html>
